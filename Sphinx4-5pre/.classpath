@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-core-1.0-20150630.174404-9.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-core-1.0-20150630.174404-9-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-core-1.0-20150630.174404-9-sources.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-data-1.0-20150630.174256-9.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-data-1.0-20150630.174256-9-sources.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-samples-1.0-20150630.174428-9.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-samples-1.0-20150630.174428-9-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-samples-1.0-20150630.174428-9-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/emerson/jarSphinx4prealpha/sphinx4-samples-1.0-20150630.174428-9-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
