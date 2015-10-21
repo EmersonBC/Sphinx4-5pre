@@ -13,14 +13,14 @@ public class Main {
 		Configuration configuration = new Configuration();
 		
 		// Set path to acoustic model.
-		configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
+		configuration.setAcousticModelPath("/home/emerson/sphinx3nightly/an4/model_parameters/teste");
 		// Set path to dictionary.
-		configuration.setDictionaryPath("resource:/edu/cmu/sphinx/models/en-us/cmudict-en-us.dict");
+		configuration.setDictionaryPath("/home/emerson/sphinx3nightly/an4/etc/an4.dic");
 		// Set language model.
-		configuration.setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us.lm.bin");
-		
+		configuration.setLanguageModelPath("/home/emerson/sphinx3nightly/an4/etc/an4.ug.lm");
+
 		StreamSpeechRecognizer recognizer = new StreamSpeechRecognizer(configuration);
-		recognizer.startRecognition(new FileInputStream("10001-90210-01803.wav"));
+		recognizer.startRecognition(new FileInputStream("/home/emerson/sphinx3nightly/an4/wav/Reconhecimento/F051702.WAV"));
 		SpeechResult result = recognizer.getResult();
 		recognizer.stopRecognition();
 
